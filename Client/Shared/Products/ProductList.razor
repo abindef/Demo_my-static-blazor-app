@@ -39,6 +39,6 @@ else
 @code {
     [Parameter] public IEnumerable<Product> Products { get; set; }
     [Parameter] public EventCallback<Product> DeleteProduct { get; set; }
-    [Parameter] public EventCallback<Product> SelectProduct { get; set; }
+    [Parameter] public EventCallback<Product> SelectProduct { get; set; }//子组件
     [Parameter] public string ErrorMessage { get; set; }
 }
